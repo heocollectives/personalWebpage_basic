@@ -1,0 +1,102 @@
+body {
+  background-color: #ffefa0;
+  text-align: center;
+}
+
+h1 {
+  color: #ac4b1c;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: #ac4b1c;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+p {
+  color: #cf7500;
+  text-align: center;
+  display: block;
+  padding: 20px 100px 20px 100px;
+  font-family: 'Sacramento', cursive;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 50%;
+}
+hr {
+    border: dotted  #ac4b1c 5px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px none;
+}
+.btn {
+    background: #cf7500;
+    background-image: -webkit-linear-gradient(top,#cf7500,  #ac4b1c);
+    background-image: -moz-linear-gradient(top, #cf7500,  #ac4b1c);
+    background-image: -ms-linear-gradient(top,#cf7500, #ac4b1c);
+    background-image: -o-linear-gradient(top, #cf7500,  #ac4b1c);
+    background-image: linear-gradient(to bottom, #cf7500, #ac4b1c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color:#ffefa0;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }  
+  .btn:hover {
+    background: #ffefa0;
+    background-image: -webkit-linear-gradient(top,#cf7500, #ffefa0);
+    background-image: -moz-linear-gradient(top,#cf7500,  #ffefa0);
+    background-image: -ms-linear-gradient(top,#cf7500,  #ffefa0);
+    background-image: -o-linear-gradient(top,#cf7500,  #ffefa0);
+    background-image: linear-gradient(bottom,#cf7500,  #ffefa0);
+    text-decoration: none;
+  }
+a {
+    color: #ac4b1c;
+    text-decoration: none;
+
+}
+.button {
+    background-color: #ac4b1c;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    color:#ffefa0;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 100px; 
+}
+
+.logo {
+  position: absolute;
+  left: 100px;
+}
+
+.coding-background {
+  position: absolute;
+  width: 75%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -515px;
+  z-index: -1;
+  opacity: 25%;
+}
+.footer-icon {
+  position: relative;
+  padding-bottom: 100px;
+  color: #fca652;
+}
